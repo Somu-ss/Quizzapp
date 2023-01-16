@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quizz App"
+        android:text="Quiz App"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:gravity="center"
@@ -79,6 +79,7 @@
              android:layout_height="wrap_content"
              android:layout_margin="10sp"
              android:text="START"
+             android:textStyle="bold"
              android:textSize="18sp"/>
 
 
