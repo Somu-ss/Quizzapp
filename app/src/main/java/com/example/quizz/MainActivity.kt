@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 val intent = Intent(this,QuizzActivity::class.java)
                 startActivity(intent)
+                finish()
 
             }
 
