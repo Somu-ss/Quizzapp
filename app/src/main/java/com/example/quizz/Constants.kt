@@ -64,7 +64,7 @@ object Constants {
             "which animal is this?",
             R.drawable.tiger_img,"Tiger",
             "Lion","Leopard",
-            "Dog",2
+            "Dog",1
 
         )
         questionList.add(ques6)
@@ -82,9 +82,9 @@ object Constants {
         val ques8 = Questions(
             8 ,
             "which animal is this?",
-            R.drawable.leopard_img,"Tiger",
+            R.drawable.dog_img,"Tiger",
             "Lion","Leopard",
-            "Dog",3
+            "Dog",4
 
         )
         questionList.add(ques8)
