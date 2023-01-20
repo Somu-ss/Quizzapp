@@ -13,13 +13,13 @@
        android:layout_height="wrap_content"
        android:orientation="vertical"
        android:gravity="center"
-       android:padding="16sp">
+       android:padding="10sp">
 
        <TextView
            android:id="@+id/question"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:layout_margin="10sp"
+           android:layout_margin="12sp"
            android:gravity="center"
            android:text="Which this Flag belongs to?"
            android:textColor="@color/black"
@@ -28,9 +28,8 @@
 
        <ImageView
            android:id="@+id/imgsrc"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="5sp"
+           android:layout_width="350sp"
+           android:layout_height="300sp"
            android:contentDescription="Indian Image"
            android:src="@drawable/indian_flag" />
        
@@ -43,14 +42,17 @@
 
            <ProgressBar
                android:id="@+id/progress"
-               style="?android:attr/progressBarStyleHorizontal"
+               style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                android:layout_width="0dp"
                android:layout_height="wrap_content"
                android:layout_weight="1"
                android:indeterminate="false"
                android:max="8"
                android:minHeight="60dp"
-               android:progress="0" />
+               android:progress="0"
+               android:outlineSpotShadowColor="@color/design_default_color_primary_dark"
+               android:outlineAmbientShadowColor="@color/design_default_color_primary_dark"
+               />
 
            <TextView
                android:id="@+id/txtProgress"
@@ -79,7 +81,7 @@
            android:id="@+id/optionTwo"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:layout_margin="8sp"
+           android:layout_margin="5sp"
            android:background="@drawable/default_bg_option"
            android:gravity="center"
            android:padding="15sp"
@@ -91,7 +93,7 @@
            android:id="@+id/optionThree"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:layout_margin="8sp"
+           android:layout_margin="5sp"
            android:background="@drawable/default_bg_option"
            android:gravity="center"
            android:padding="15sp"
@@ -103,7 +105,7 @@
            android:id="@+id/optionFour"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:layout_margin="8sp"
+           android:layout_margin="5sp"
            android:background="@drawable/default_bg_option"
            android:gravity="center"
            android:padding="15sp"
